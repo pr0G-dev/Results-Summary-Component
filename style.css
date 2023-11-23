@@ -1,0 +1,168 @@
+/* ===== Font ===== */
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 700;
+}
+/* ================ */
+
+/* ============================ */
+/* ========== Colors ========== */
+/* ============================ */
+
+/* ======== Primary ======== */
+.light-red {
+  color: hsl(0, 100%, 67%);
+  background-color: hsla(0, 100%, 67%, 0.08);
+}
+
+.orangey-yellow {
+  color: hsl(39, 100%, 56%);
+  background-color: hsla(39, 100%, 56%, 0.08);
+}
+
+.green-teal {
+  color: hsl(166, 100%, 37%);
+  background-color: hsla(166, 100%, 37%, 0.08);
+}
+
+.cobalt-blue {
+  color: hsl(234, 85%, 45%);
+  background-color: hsla(234, 85%, 45%, 0.08);
+}
+
+/* ========================= */
+
+/* ======= Gradients ======= */
+.grad-circle {
+  background-image: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+}
+
+.grad-bg {
+  background-image: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+}
+/* ========================= */
+
+/* ======== Neutral ======== */
+.white {
+  color: hsl(0, 0%, 100%);
+}
+
+.pale-blue {
+  color: hsl(221, 100%, 96%);
+}
+
+.light-lavender {
+  color: hsl(241, 100%, 89%);
+}
+
+.dark-gray-blue {
+  color: hsl(224, 30%, 27%);
+}
+
+/* ========================= */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-shadow {
+  text-shadow: 0 0 1px black;
+}
+
+.hund {
+  opacity: 50%;
+}
+
+.p-size {
+  font-size: 18px;
+}
+
+/* ================================= */
+
+/* ===== Main container styles ===== */
+.container {
+  position: absolute;
+  border-radius: 25px;
+  box-shadow: 10%;
+  display: flex;
+  justify-content: center;
+  max-width: fit-content;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 10px 30px rgba(150, 145, 224, 0.314);
+}
+/* ================================= */
+
+/* ===== Left container styles ===== */
+.ldiv {
+  padding: 15px 40px 30px 40px;
+  border-radius: 25px;
+}
+
+.circle {
+  margin: auto;
+  border-radius: 50%;
+  max-width: 22vh;
+  min-height: 22vh;
+}
+/* ================================= */
+
+/* ===== Right container styles ===== */
+.rdiv {
+  padding: 15px 40px 40px 40px;
+  border-radius: 25px;
+}
+
+.sum-div {
+  margin: 15px 0;
+  padding: 0 15px;
+  border-radius: 8px;
+  min-width: 35vh;
+  display: flex;
+}
+
+.sum-ltext {
+  transform: translateX(7px);
+}
+
+.sum-rtext {
+  text-align: right;
+}
+
+.per {
+  display: flex;
+  margin-left: auto;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 15px;
+  min-width: 100%;
+  border-radius: 50px;
+  border: none;
+}
+
+.btn:hover {
+  background-image: linear-gradient(hsl(224, 30%, 27%), hsl(224, 30%, 27%));
+  cursor: pointer;
+}
+/* ================================== */
