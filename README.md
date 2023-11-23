@@ -13,7 +13,7 @@ The challenge was to create a simple results summary component. The component sh
 
 ## How to View
 
-To view the project, simply open the `index.html` file in your web browser or [click here](https://raw.githack.com/pr0G-dev/Results-summary-component/main/index.html).
+To view the project, simply open the `index.html` file in your web browser or [click here](https://pr0g-dev.github.io/Results-Summary-Component/).
 
 ## Screenshot
 
